@@ -45,9 +45,9 @@ posts.forEach((post) => {
     </div>
     <footer class="post-footer">
     <div class="post-actions">
-    <img src="images/icon-heart.png" class="heart"/>
-    <img src="images/icon-comment.png" />
-    <img src="images/icon-dm.png" />
+    <img src="/images/icon-heart.png" class="heart"/>
+    <img src="/images/icon-comment.png" />
+    <img src="/images/icon-dm.png" />
     </div>
     <p class="bold likes">${post["likes"]} likes</p>
     </footer>
