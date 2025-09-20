@@ -1,6 +1,5 @@
-html,
-body,
-p {
+/*---------------------- General styles------------------- */
+* {
   margin: 0;
   padding: 0;
   font-family: "Source Sans 3", sans-serif;
@@ -8,18 +7,20 @@ p {
 body {
   width: 375px;
   margin: 0 auto;
-  background-color: #c6c6c6;
 }
 
-.main-header,
-article {
-  background-color: #fff;
-}
-main {
+main,
+body {
   background-color: #c6c6c6;
 }
 article {
   margin-bottom: 25px;
+}
+
+/* ---------------------------Layout----------------------- */
+.main-header,
+article {
+  background-color: #fff;
 }
 .main-header {
   padding: 15px;
@@ -27,14 +28,6 @@ article {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #c6c6c6;
-}
-#logo {
-  width: 127px;
-}
-.profile-img {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
 }
 .post-header {
   padding: 10px;
@@ -48,12 +41,6 @@ article {
 .post-author p {
   line-height: 1.2;
 }
-.bold {
-  font-weight: 700;
-}
-.post-img {
-  width: 100%;
-}
 .post-footer {
   padding: 21px 0 12px 0;
 }
@@ -63,6 +50,25 @@ article {
   margin-bottom: 11px;
   padding-left: 8px;
 }
+
+.comment {
+  padding: 0 0 16px 13px;
+}
+.likes {
+  padding-left: 13px;
+}
+/*--------------------- Images------------------------- */
+#logo {
+  width: 127px;
+}
+.profile-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.post-img {
+  width: 100%;
+}
 .post-actions img {
   width: 23px;
   margin-right: 18px;
@@ -71,14 +77,8 @@ article {
 .post-actions img:hover {
   background-color: #c6c6c6;
   border: 1px solid black;
-  /* border-radius: 3px; */
 }
-.comment {
-  padding: 0 0 16px 13px;
-  /* background-color: red; */
-}
-.likes {
-  /* background-color: blue; */
-  /* margin-left: 0; */
-  padding-left: 13px;
+/* -------------------------Typography ---------------------*/
+.bold {
+  font-weight: 700;
 }
